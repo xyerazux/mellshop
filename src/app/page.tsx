@@ -183,7 +183,7 @@ export default function Home() {
                     {!product.isAvailable && (
                       <div className="absolute inset-0 bg-white/70 backdrop-blur-sm flex items-center justify-center z-20">
                         <span className="text-white font-bold bg-stone-900 px-4 py-1.5 md:px-5 md:py-2 rounded-full text-[10px] md:text-xs shadow-xl tracking-wide uppercase">
-                          Habis Terjual
+                          Mohon Maaf, Produk Habis
                         </span>
                       </div>
                     )}
