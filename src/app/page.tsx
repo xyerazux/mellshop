@@ -58,7 +58,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             {/* Logo diganti dengan favicon.ico */}
             <img src="/favicon.ico" alt="Logo" className="w-8 h-8 object-contain" />
-            <span className="text-2xl font-bold text-stone-900 tracking-tight">Mel's Shop.</span>
+            <span className="text-2xl font-bold text-stone-900 tracking-tight">Mel's Shop</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-stone-600">
