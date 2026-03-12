@@ -55,10 +55,9 @@ export default function Home() {
       {/* NAVBAR */}
       <nav className="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-orange-100/50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            {/* Logo diganti dengan favicon.ico */}
-            <img src="/favicon.ico" alt="Logo" className="w-8 h-8 object-contain" />
-            <span className="text-2xl font-bold text-stone-900 tracking-tight">Mel's Shop</span>
+          <div className="flex items-center">
+            {/* Tinggi logo diatur otomatis menyesuaikan layar (h-10 di HP, h-12 di Laptop) */}
+            <img src="/assets/logo-mellshop.png" alt="Mellshop Logo" className="h-18 md:h-25 w-auto object-contain" />
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-stone-600">
@@ -271,10 +270,10 @@ export default function Home() {
         <FadeIn>
           <div className="text-center mb-10 space-y-2">
             {/* Logo favicon + Mellshop disandingkan */}
-            <div className="flex justify-center items-center gap-3 mb-2">
-              <img src="/favicon.ico" alt="Mellshop Logo" className="w-8 h-8 object-contain" />
-              <h3 className="font-bold text-2xl md:text-3xl text-stone-900 tracking-tight">Mel's Shop.</h3>
-            </div>
+            <div className="flex justify-center mb-4">
+            {/* Di footer dibikin sedikit lebih besar (h-12 di HP, h-16 di Laptop) */}
+            <img src="/assets/logo-mellshop.png" alt="Mellshop Logo" className="h-20 md:h-28 w-auto object-contain drop-shadow-sm" />
+          </div>
             <p className="text-stone-600 text-xs md:text-sm font-medium">Mitra belanja makanan praktis Anda.</p>
           </div>
           
