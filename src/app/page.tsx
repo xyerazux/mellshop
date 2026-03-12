@@ -58,7 +58,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             {/* Logo diganti dengan favicon.ico */}
             <img src="/favicon.ico" alt="Logo" className="w-8 h-8 object-contain" />
-            <span className="text-2xl font-bold text-stone-900 tracking-tight">Mellshop.</span>
+            <span className="text-2xl font-bold text-stone-900 tracking-tight">Mel's Shop.</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-stone-600">
@@ -273,7 +273,7 @@ export default function Home() {
             {/* Logo favicon + Mellshop disandingkan */}
             <div className="flex justify-center items-center gap-3 mb-2">
               <img src="/favicon.ico" alt="Mellshop Logo" className="w-8 h-8 object-contain" />
-              <h3 className="font-bold text-2xl md:text-3xl text-stone-900 tracking-tight">Mellshop.</h3>
+              <h3 className="font-bold text-2xl md:text-3xl text-stone-900 tracking-tight">Mel's Shop.</h3>
             </div>
             <p className="text-stone-600 text-xs md:text-sm font-medium">Mitra belanja makanan praktis Anda.</p>
           </div>

@@ -88,7 +88,7 @@ export default function AdminPage() {
               <Lock size={24} />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Panel Admin Mellshop</h1>
+              <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Panel Admin Mel's Shop</h1>
               <p className="text-sm text-stone-500 font-medium">Sistem Kelola Data Produk</p>
             </div>
           </div>
