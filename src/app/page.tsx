@@ -220,7 +220,7 @@ export default function Home() {
                     
                     <div className="mt-auto">
                       <a
-                        href={product.isAvailable ? `https://wa.me/${WA_NUMBER}?text=Halo%20Mellshop,%20saya%20tertarik%20membeli%20*${product.name}*%20seharga%20*${formatRupiah(product.discountPrice || product.price)}*` : "#"}
+                        href={product.isAvailable ? `https://wa.me/${WA_NUMBER}?text=Halo%20Mel'sShop,%20saya%20tertarik%20membeli%20*${product.name}*%20seharga%20*${formatRupiah(product.discountPrice || product.price)}*` : "#"}
                         target={product.isAvailable ? "_blank" : "_self"}
                         rel="noopener noreferrer"
                         className={`flex items-center justify-center gap-1.5 md:gap-2 w-full py-2.5 md:py-3.5 rounded-xl text-[10px] md:text-sm font-bold transition-all ${
